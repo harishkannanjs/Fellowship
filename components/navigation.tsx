@@ -10,6 +10,7 @@ export default function Navigation({ activeSection, setActiveSection }: Navigati
     { label: 'WHAT', href: '#what' },
     { label: 'WHO', href: '#who' },
     { label: 'HOW', href: '#how' },
+    { label: 'WHY', href: '#why' },
     { label: 'ACCOUNTABILITY', href: '#accountability' },
     { label: 'Apply', href: '#apply' },
   ]
