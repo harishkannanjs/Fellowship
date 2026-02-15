@@ -9,10 +9,10 @@ export default function Navigation({ activeSection, setActiveSection }: Navigati
   const navItems = [
     { label: 'WHAT', href: '#what' },
     { label: 'WHO', href: '#who' },
-    { label: 'HOW', href: '#how' },
+    { label: 'BENEFITS', href: '#benefits' },
     { label: 'WHY', href: '#why' },
     { label: 'ACCOUNTABILITY', href: '#accountability' },
-    { label: 'Apply', href: '#apply' },
+    { label: 'APPLY', href: '#apply' },
   ]
 
   const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {

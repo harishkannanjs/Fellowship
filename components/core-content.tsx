@@ -94,7 +94,7 @@ export default function CoreContent() {
             </section>
 
             {/* HOW Section */}
-            <section id="how" className="py-10">
+            <section id="benefits" className="py-10">
                 <div className="max-w-4xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-8 items-start border-b border-gray-200 pb-10">
                     <h2 className="text-[13px] tracking-[0.4em] text-gray-400 font-jenson uppercase md:col-span-1 pt-5">
                         BENEFITS
@@ -106,7 +106,7 @@ export default function CoreContent() {
                                     onClick={() => setExpandedWhy(expandedWhy === item.number ? null : item.number)}
                                     className="w-full text-left hover:opacity-70 transition group"
                                 >
-                                    <h3 className="text-xl lg:text-[40px] font-jenson text-gray-900 leading-relaxed">
+                                    <h3 className="text-xl lg:text-[40px] font-garamond-bold font-normal text-gray-900 leading-relaxed">
                                         <span className="text-gray-900 mr-4 tabular-nums">({item.number})</span> {item.title}
                                     </h3>
                                 </button>
