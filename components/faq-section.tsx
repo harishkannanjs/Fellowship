@@ -11,32 +11,32 @@ export default function FAQSection({ setActiveSection }: FAQSectionProps) {
 
   const faqs = [
     {
-      question: 'How does the Grant work?',
-      answer: 'The $10,000+ grant is provided upfront to exceptional talented individuals younger than 25 to bypass what slows them down. There are no equity stakes, no repayment obligations. It\'s a pure grant to support your work.'
+      question: 'How much time does the fellowship require?',
+      answer: 'Plan for 5–8 focused hours each week. You’re expected to build consistently and show measurable progress.'
     },
     {
-      question: 'How to get the application going?',
-      answer: 'You can apply directly through our application portal. The process involves submitting a written application (maximum 2000 words/4 pages) followed by an in-person interview if selected.'
+      question: 'How do I apply?',
+      answer: 'Submit your application. If there’s alignment, you’ll be invited for a short conversation with a member of the expert network.'
     },
     {
-      question: 'What is the age limit to apply?',
-      answer: 'You must be younger than 25 years old to be eligible for the Magnificent Grant. We\'re specifically looking for pioneering talent in their early twenties or younger.'
+      question: 'Do I need prior experience?',
+      answer: 'No formal credentials required. You need an active project and the discipline to move it forward.'
     },
     {
-      question: 'Do I need to drop out?',
-      answer: 'No, dropping out is not required. Many of our fellows continue their studies while pursuing their projects. However, you should have the flexibility and commitment to engage deeply with your ambitious ideas.'
+      question: 'What kind of projects qualify?',
+      answer: 'Anything concrete and shippable within the sprint. Research, products, creative work — as long as it’s real.'
     },
     {
-      question: 'Do I need to be on the verge of launching a product or incorporated a company already?',
-      answer: 'No, you don\'t need to have a company or product ready. We\'re looking for exceptional talent with ambitious ideas and the urgency to execute them. We support you in developing and launching your ideas.'
+      question: 'What happens if I fall behind?',
+      answer: 'Progress is visible. Own it, reset, and continue building. The structure is designed to keep you moving.'
     },
     {
-      question: 'Is there an application deadline?',
-      answer: 'No, we interview applicants on a rolling basis. You can apply anytime and we review applications continuously throughout the year.'
+      question: 'How are expert sessions structured?',
+      answer: 'No lectures. Focused conversations around your work, your decisions, and your blockers.'
     },
     {
-      question: 'How many Grantees do you select?',
-      answer: 'We select 10 exceptional talented pioneers each year to receive the Magnificent Grant. We\'re selective in our process to ensure we\'re backing the right people who can create meaningful impact.'
+      question: 'What does completion mean?',
+      answer: 'You ship something publicly. That’s the standard.'
     }
   ]
 
