@@ -28,11 +28,11 @@ Knowing other builders will see your progress creates productive pressure. You'r
 
     return (
         <section id="accountability" className="py-10">
-            <div className="max-w-4xl mx-auto px-6 grid grid-cols-1 xs:grid-cols-5 md:grid-cols-4 gap-8 xs:gap-16 items-start border-b border-gray-200 pb-10">
-                <h2 className="text-[15px] md:text-[13px] tracking-[0.2em] md:tracking-[0.4em] text-gray-400 font-jenson uppercase xs:col-span-2 md:col-span-1 pt-5">
+            <div className="max-w-4xl mx-auto px-6 grid grid-cols-1 min-[421px]:grid-cols-5 md:grid-cols-4 gap-8 min-[421px]:gap-12 md:gap-16 items-start border-b border-gray-200 pb-10">
+                <h2 className="text-[15px] md:text-[13px] tracking-[0.1em] min-[421px]:tracking-[0.2em] md:tracking-[0.4em] text-gray-400 font-jenson uppercase min-[421px]:col-span-2 md:col-span-1 pt-5">
                     ACCOUNTABILITY
                 </h2>
-                <div className="xs:col-span-3 md:col-span-3 space-y-12">
+                <div className="min-[421px]:col-span-3 md:col-span-3 space-y-12">
                     {accountabilityItems.map((item) => (
                         <div key={item.number} className="pb-12 border-b border-gray-200 last:border-b-0 last:pb-0">
                             <button

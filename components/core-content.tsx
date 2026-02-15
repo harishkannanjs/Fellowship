@@ -38,11 +38,11 @@ export default function CoreContent() {
         <>
             {/* WHAT Section */}
             <section id="what" className="py-10">
-                <div className="max-w-4xl mx-auto px-6 grid grid-cols-1 xs:grid-cols-5 md:grid-cols-4 gap-8 items-start relative">
-                    <h2 className="text-[15px] md:text-[13px] tracking-[0.2em] md:tracking-[0.4em] text-gray-400 font-jenson uppercase xs:col-span-2 md:col-span-1 pt-2">
+                <div className="max-w-4xl mx-auto px-6 grid grid-cols-1 min-[421px]:grid-cols-5 md:grid-cols-4 gap-8 items-start relative">
+                    <h2 className="text-[15px] md:text-[13px] tracking-[0.1em] min-[421px]:tracking-[0.2em] md:tracking-[0.4em] text-gray-400 font-jenson uppercase min-[421px]:col-span-2 md:col-span-1 pt-2">
                         WHAT
                     </h2>
-                    <div className="xs:col-span-3 md:col-span-3">
+                    <div className="min-[421px]:col-span-3 md:col-span-3">
                         <p className="text-xl lg:text-[22px] font-jenson text-gray-900 leading-relaxed mb-5">
                             Think of sitting around a table with people who genuinely care about the same things you
                             do—asking real questions, sharing honest experiences, and exploring ideas together. We
@@ -59,11 +59,11 @@ export default function CoreContent() {
 
             {/* WHO Section */}
             <section id="who" className="py-10">
-                <div className="max-w-4xl mx-auto px-6 grid grid-cols-1 xs:grid-cols-5 md:grid-cols-4 gap-8 items-start">
-                    <h2 className="text-[15px] md:text-[13px] tracking-[0.2em] md:tracking-[0.4em] text-gray-400 font-jenson uppercase xs:col-span-2 md:col-span-1 pt-2">
+                <div className="max-w-4xl mx-auto px-6 grid grid-cols-1 min-[421px]:grid-cols-5 md:grid-cols-4 gap-8 items-start">
+                    <h2 className="text-[15px] md:text-[13px] tracking-[0.1em] min-[421px]:tracking-[0.2em] md:tracking-[0.4em] text-gray-400 font-jenson uppercase min-[421px]:col-span-2 md:col-span-1 pt-2">
                         WHO
                     </h2>
-                    <div className="xs:col-span-3 md:col-span-3">
+                    <div className="min-[421px]:col-span-3 md:col-span-3">
                         <ul className="space-y-4 text-xl lg:text-[22px] font-jenson text-gray-900 leading-relaxed mb-8">
                             <li className="flex items-start gap-4">
                                 <span className="text-gray-900 mt-1">1.</span>
@@ -93,13 +93,13 @@ export default function CoreContent() {
                 </div>
             </section>
 
-            {/* HOW Section */}
-            <section id="benefits" className="py-10 border-t border-gray-100">
-                <div className="max-w-4xl mx-auto px-6 grid grid-cols-1 xs:grid-cols-5 md:grid-cols-4 gap-8 items-start">
-                    <h2 className="text-[15px] md:text-[13px] tracking-[0.2em] md:tracking-[0.4em] text-gray-400 font-jenson uppercase xs:col-span-2 md:col-span-1 pt-2">
+            {/* BENEFITS Section */}
+            <section id="benefits" className="py-10">
+                <div className="max-w-4xl mx-auto px-6 grid grid-cols-1 min-[421px]:grid-cols-5 md:grid-cols-4 gap-8 items-start border-t border-gray-100">
+                    <h2 className="text-[15px] md:text-[13px] tracking-[0.1em] min-[421px]:tracking-[0.2em] md:tracking-[0.4em] text-gray-400 font-jenson uppercase min-[421px]:col-span-2 md:col-span-1 pt-2">
                         BENEFITS
                     </h2>
-                    <div className="xs:col-span-3 md:col-span-3 space-y-12">
+                    <div className="min-[421px]:col-span-3 md:col-span-3 space-y-12">
                         {howItems.map((item) => (
                             <div key={item.number} className="pb-12 border-b border-gray-200 last:border-b-0 last:pb-0">
                                 <button
