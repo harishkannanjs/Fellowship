@@ -8,25 +8,40 @@ export default function WhySection() {
     const whyItems = [
         {
             number: 1,
-            title: 'The time to escape from systemic norm captivity is now.',
-            content: 'Higher education has become increasingly gatekeeping and credentialist. We believe exceptional talent should not be constrained by traditional paths. The future belongs to those who can think independently and create value outside of established hierarchies.'
+            title: "We don't do lectures.",
+            content: "Expert sessions are dialogues about your specific work, not general presentations."
         },
         {
             number: 2,
-            title: 'We go where effective altruism stops.',
-            content: 'While effective altruism focuses on quantifiable impact, we recognize that some of the most important contributions to society are unmeasurable. We back ambitious outliers who are building things that matter, even if their impact can\'t be perfectly measured.'
+            title: "We don't do passive learning.",
+            content: "Every input has to connect to something you're actively building."
         },
         {
             number: 3,
-            title: 'Edge in spotting extreme talent: our team built a track record as one of the world\'s best misfit seed investors. We don\'t fit in linear journeys ourselves.',
-            content: 'Our team has invested in some of the most unconventional founders who went on to create significant impact. We understand that exceptional talent often looks different from what traditional institutions are looking for. We\'re looking for people who don\'t fit the mold—because that\'s where real innovation happens.'
+            title: "We don't do vague mentorship.",
+            content: "Conversations are structured around decision points and blockers, not general career advice."
+        },
+        {
+            number: 4,
+            title: "We don't let you hide.",
+            content: "Accountability pods and public demos mean your progress (or lack of it) is visible."
+        },
+        {
+            number: 5,
+            title: "We don't accept ideas without execution.",
+            content: "You need an active project to join. We're not here to help you brainstorm—we're here to help you ship."
+        },
+        {
+            number: 6,
+            title: "We don't graduate people who don't build.",
+            content: `Completing the fellowship means shipping something publicly. No exceptions. This structure won't work for everyone. It's designed for builders who are ready to move fast, work in public, and hold themselves to real outcomes. If that's you, this is the right place`
         }
     ]
 
     return (
         <section id="why" className="py-10">
             <div className="max-w-4xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-8 items-start border-b border-gray-200 pb-10">
-                <h2 className="text-[13px] tracking-[0.4em] text-gray-400 font-jenson uppercase md:col-span-1 pt-2">
+                <h2 className="text-[13px] tracking-[0.4em] text-gray-400 font-jenson uppercase md:col-span-1 pt-5">
                     WHY
                 </h2>
                 <div className="md:col-span-3 space-y-12">

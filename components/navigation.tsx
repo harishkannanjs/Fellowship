@@ -8,7 +8,6 @@ interface NavigationProps {
 export default function Navigation({ activeSection, setActiveSection }: NavigationProps) {
   const navItems = [
     { label: 'WHAT', href: '#what' },
-    { label: 'MENTORSHIP', href: '#mentorship' },
     { label: 'WHO', href: '#who' },
     { label: 'HOW', href: '#how' },
     { label: 'WHY', href: '#why' },
@@ -37,7 +36,7 @@ export default function Navigation({ activeSection, setActiveSection }: Navigati
         className={`text-sm font-medium tracking-tight transition-all mb-4 inline-block border-gray-900 ${activeSection === 'hero' ? 'text-gray-900 border-b-2' : 'text-gray-900 hover:text-gray-600'
           }`}
       >
-        Magnificent Grants
+        Fellowship
       </a>
       <div className="space-y-4 text-right">
         {navItems.map((item) => {

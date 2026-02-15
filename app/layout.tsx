@@ -7,7 +7,7 @@ const _geist = Geist({ subsets: ['latin'] })
 const _geistMono = Geist_Mono({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Magnificent Grants - Fellowships for Outliers',
+  title: 'Fellowship - Fellowships for Outliers',
   description: '$10,000+ fellowships to outliers taking down the walls of universities, credentialism, and elitist hierarchies to have impact on the world.',
   generator: 'v0.app',
 }
