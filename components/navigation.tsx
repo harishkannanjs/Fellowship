@@ -30,24 +30,25 @@ export default function Navigation({ activeSection, setActiveSection }: Navigati
   }
 
   return (
-    <nav className="fixed right-10 top-12 z-40 flex flex-col items-end gap-1">
+    <nav className="absolute md:fixed top-7 left-0 right-0 mx-auto max-w-4xl px-6 md:left-auto md:right-10 md:top-6 md:max-w-none md:px-0 z-40 flex flex-row md:flex-col items-center md:items-end justify-between md:justify-start gap-1">
       <a
         href="/"
         onClick={(e) => handleNavClick(e, '/')}
-        className={`text-sm font-medium tracking-tight transition-all mb-4 inline-block border-gray-900 ${activeSection === 'hero' ? 'text-gray-900 border-b-2' : 'text-gray-900 hover:text-gray-600'
+        className={`text-base md:text-sm font-medium tracking-tight transition-all md:mb-4 inline-block border-gray-900 ${activeSection === 'hero' ? 'text-gray-900 border-b-2' : 'text-gray-900 hover:text-gray-600'
           }`}
       >
         Fellowship
       </a>
-      <div className="space-y-4 text-right">
+      <div className="md:space-y-4 text-right flex flex-row md:flex-col items-end">
         {navItems.map((item) => {
           const isActive = activeSection === item.href.slice(1)
+          const isApply = item.label === 'APPLY'
           return (
             <a
               key={item.label}
               href={item.href}
               onClick={(e) => handleNavClick(e, item.href)}
-              className={`block text-xs uppercase tracking-wider transition-all font-medium py-1 ${isActive
+              className={`${isApply ? 'block' : 'hidden md:block'} text-xs uppercase tracking-wider transition-all font-medium py-1 ${isActive
                 ? 'text-gray-900 border-b-2 border-gray-900 inline-block ml-auto'
                 : 'text-gray-600 hover:text-gray-900'
                 }`}

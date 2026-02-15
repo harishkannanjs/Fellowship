@@ -38,11 +38,11 @@ export default function CoreContent() {
         <>
             {/* WHAT Section */}
             <section id="what" className="py-10">
-                <div className="max-w-4xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-8 items-start relative">
-                    <h2 className="text-[13px] tracking-[0.4em] text-gray-400 font-jenson uppercase md:col-span-1 pt-2">
+                <div className="max-w-4xl mx-auto px-6 grid grid-cols-1 xs:grid-cols-5 md:grid-cols-4 gap-8 items-start relative">
+                    <h2 className="text-[15px] md:text-[13px] tracking-[0.2em] md:tracking-[0.4em] text-gray-400 font-jenson uppercase xs:col-span-2 md:col-span-1 pt-2">
                         WHAT
                     </h2>
-                    <div className="md:col-span-3">
+                    <div className="xs:col-span-3 md:col-span-3">
                         <p className="text-xl lg:text-[22px] font-jenson text-gray-900 leading-relaxed mb-5">
                             Think of sitting around a table with people who genuinely care about the same things you
                             do—asking real questions, sharing honest experiences, and exploring ideas together. We
@@ -59,11 +59,11 @@ export default function CoreContent() {
 
             {/* WHO Section */}
             <section id="who" className="py-10">
-                <div className="max-w-4xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-8 items-start">
-                    <h2 className="text-[13px] tracking-[0.4em] text-gray-400 font-jenson uppercase md:col-span-1 pt-2">
+                <div className="max-w-4xl mx-auto px-6 grid grid-cols-1 xs:grid-cols-5 md:grid-cols-4 gap-8 items-start">
+                    <h2 className="text-[15px] md:text-[13px] tracking-[0.2em] md:tracking-[0.4em] text-gray-400 font-jenson uppercase xs:col-span-2 md:col-span-1 pt-2">
                         WHO
                     </h2>
-                    <div className="md:col-span-3">
+                    <div className="xs:col-span-3 md:col-span-3">
                         <ul className="space-y-4 text-xl lg:text-[22px] font-jenson text-gray-900 leading-relaxed mb-8">
                             <li className="flex items-start gap-4">
                                 <span className="text-gray-900 mt-1">1.</span>
@@ -86,7 +86,7 @@ export default function CoreContent() {
                                 <span>Simply curious and eager to learn something new</span>
                             </li>
                         </ul>
-                        <p className="text-xl lg:text-[22px] font-jenson text-gray-900 leading-relaxed">
+                        <p className="text-lg lg:text-[22px] font-jenson text-gray-900 leading-relaxed">
                             You don&apos;t need to have shipped a product yet. But you need to be working on something concrete right now.
                         </p>
                     </div>
@@ -94,19 +94,19 @@ export default function CoreContent() {
             </section>
 
             {/* HOW Section */}
-            <section id="benefits" className="py-10">
-                <div className="max-w-4xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-8 items-start border-b border-gray-200 pb-10">
-                    <h2 className="text-[13px] tracking-[0.4em] text-gray-400 font-jenson uppercase md:col-span-1 pt-5">
+            <section id="benefits" className="py-10 border-t border-gray-100">
+                <div className="max-w-4xl mx-auto px-6 grid grid-cols-1 xs:grid-cols-5 md:grid-cols-4 gap-8 items-start">
+                    <h2 className="text-[15px] md:text-[13px] tracking-[0.2em] md:tracking-[0.4em] text-gray-400 font-jenson uppercase xs:col-span-2 md:col-span-1 pt-2">
                         BENEFITS
                     </h2>
-                    <div className="md:col-span-3 space-y-12">
+                    <div className="xs:col-span-3 md:col-span-3 space-y-12">
                         {howItems.map((item) => (
                             <div key={item.number} className="pb-12 border-b border-gray-200 last:border-b-0 last:pb-0">
                                 <button
                                     onClick={() => setExpandedWhy(expandedWhy === item.number ? null : item.number)}
                                     className="w-full text-left hover:opacity-70 transition group"
                                 >
-                                    <h3 className="text-xl lg:text-[40px] font-garamond-bold font-normal text-gray-900 leading-relaxed">
+                                    <h3 className="text-[32px] lg:text-[40px] font-garamond-bold font-normal text-gray-900 leading-relaxed">
                                         <span className="text-gray-900 mr-4 tabular-nums">({item.number})</span> {item.title}
                                     </h3>
                                 </button>

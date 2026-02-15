@@ -45,7 +45,7 @@ export default function FAQSection({ setActiveSection }: FAQSectionProps) {
       {/* FAQ Section */}
       <section id="faq" className="py-10 pb-2 bg-background">
         <div className="max-w-4xl mx-auto px-6 pb-5">
-          <h2 className="text-[15px] tracking-[0.4em] text-gray-400 font-jenson uppercase mb-12">
+          <h2 className="text-[17px] md:text-[15px] tracking-[0.4em] text-gray-400 font-jenson uppercase mb-12">
             FAQ
           </h2>
           <div className="space-y-12">
@@ -55,7 +55,7 @@ export default function FAQSection({ setActiveSection }: FAQSectionProps) {
                   onClick={() => setExpanded(expanded === index ? null : index)}
                   className="w-full text-left group"
                 >
-                  <h4 className={`text-xl lg:text-[30px] font-serif text-gray-900 leading-relaxed group-hover:opacity-70 transition pb-1 ${expanded === index ? 'border-b-2 border-gray-900 inline-block' : ''
+                  <h4 className={`text-[26px] lg:text-[30px] font-serif text-gray-900 leading-relaxed group-hover:opacity-70 transition pb-1 ${expanded === index ? 'border-b-2 border-gray-900 inline-block' : ''
                     }`}>
                     {faq.question}
                   </h4>

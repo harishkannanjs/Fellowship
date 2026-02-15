@@ -5,7 +5,7 @@ export default function Footer() {
         <footer className="py-10 pt-1 bg-background">
             <div className="max-w-4xl mx-auto px-6">
                 <div className="mb-10  ">
-                    <h2 className="text-[13px] tracking-[0.4em] text-gray-400 font-jenson uppercase mb-8">
+                    <h2 className="text-[15px] md:text-[13px] tracking-[0.4em] text-gray-400 font-jenson uppercase mb-8">
                         Fellowship
                     </h2>
 
@@ -19,11 +19,11 @@ export default function Footer() {
                     </div>
                 </div>
 
-                <div className="flex flex-col md:flex-row justify-between items-start md:items-center pt-8 border-t border-gray-200 text-[11px] tracking-wider text-gray-400 font-medium uppercase">
-                    <div className="flex flex-wrap gap-8 mb-4 md:mb-0">
+                <div className="flex flex-col-reverse md:flex-row justify-between items-start md:items-center pt-8 border-t border-gray-200 text-[16px] md:text-[11px] tracking-wider text-gray-400 font-jenson">
+                    <div className="mt-2 md:mt-0">
                         <span>© Fellowship</span>
                     </div>
-                    <div className="flex gap-8">
+                    <div className="flex gap-8 mb-2 md:mb-0">
                         <a href="#" className="hover:text-gray-900 transition-colors">Privacy</a>
                         <a href="#" className="hover:text-gray-900 transition-colors">Cookie Policy</a>
                     </div>

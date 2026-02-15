@@ -18,7 +18,7 @@ export default function HeroSection({ setActiveSection }: HeroSectionProps) {
   return (
     <main className="relative bg-background">
       {/* Map Background */}
-      <div className="max-w-4xl mx-auto px-6 pt-12">
+      <div className="max-w-4xl mx-auto px-6 pt-20">
         <img
           src="/Hero.png"
           alt="Hero background"
@@ -31,12 +31,12 @@ export default function HeroSection({ setActiveSection }: HeroSectionProps) {
         <p className="text-[13px] tracking-[0.3em] font-medium text-gray-500 uppercase mb-6">
           Fellowship
         </p>
-        <h1 className="text-5xl lg:text-[42px] leading-[1.05] font-garamond-bold text-gray-900 mb-7">
+        <h1 className="text-[32px] lg:text-[42px] leading-[1.05] font-garamond-bold text-gray-900 mb-7">
           The program brings together people who want to learn with those ready to share what
           they know. We're building a community where meaningful conversations happen,
           connections form, and everyone leaves with something valuable.
         </h1>
-        <h1 className="text-5xl lg:text-[42px] leading-[1.05] font-garamond-bold text-gray-900 mb-12">
+        <h1 className="text-[32px] lg:text-[42px] leading-[1.05] font-garamond-bold text-gray-900 mb-12">
           You bring the perspectives. We bring the system, the experts, and the cohort.
         </h1>
 

@@ -3,19 +3,19 @@
 export default function ApplySection() {
     return (
         <section id="apply" className="py-10">
-            <div className="max-w-4xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-8 items-start border-y border-gray-200 py-10">
-                <h2 className="text-[13px] tracking-[0.4em] text-gray-400 font-jenson uppercase md:col-span-1 pt-5">
+            <div className="max-w-4xl mx-auto px-6 grid grid-cols-1 xs:grid-cols-5 md:grid-cols-4 gap-8 items-start border-y border-gray-200 py-10">
+                <h2 className="text-[15px] md:text-[13px] tracking-[0.2em] md:tracking-[0.4em] text-gray-400 font-jenson uppercase xs:col-span-2 md:col-span-1 pt-5">
                     APPLY
                 </h2>
-                <div className="md:col-span-3">
-                    <h3 className="text-xl lg:text-[40px] font-garamond-bold text-gray-900 leading-relaxed mb-6">
+                <div className="xs:col-span-3 md:col-span-3">
+                    <h3 className="text-[32px] lg:text-[40px] font-garamond-bold text-gray-900 leading-relaxed mb-6">
                         Ready to Begin?
                     </h3>
                     <p className="text-xl lg:text-[22px] font-jenson text-gray-900 leading-relaxed mb-5">
                         Your seat at the table is waiting. Register for an upcoming event, connect with people
                         who share your interests, and take the next step in your journey.
                     </p>
-                    <p className="text-xl lg:text-[22px] font-jenson text-gray-900 leading-relaxed mb-8">
+                    <p className="text-lg lg:text-[22px] font-jenson text-gray-900 leading-relaxed mb-8">
                         We review applications on a rolling basis. Strong applications get scheduled for a brief
                         technical conversation with a member of our expert network.
                     </p>
