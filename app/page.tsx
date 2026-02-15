@@ -4,6 +4,7 @@ import { useState, useEffect, useRef } from 'react'
 import Navigation from '@/components/navigation'
 import HeroSection from '@/components/hero-section'
 import CoreContent from '@/components/core-content'
+import WhySection from '@/components/why-section'
 import AccountabilitySection from '@/components/accountability'
 import FAQSection from '@/components/faq-section'
 import ApplySection from '@/components/apply-section'
@@ -32,7 +33,7 @@ export default function Page() {
 
     const observer = new IntersectionObserver(observerCallback, observerOptions)
 
-    const sections = ['hero', 'what', 'mentorship', 'who', 'how', 'accountability', 'faq', 'apply']
+    const sections = ['hero', 'what', 'mentorship', 'who', 'how', 'why', 'accountability', 'faq', 'apply']
     sections.forEach((id) => {
       const element = document.getElementById(id)
       if (element) observer.observe(element)
@@ -57,6 +58,7 @@ export default function Page() {
       <div className="">
         <HeroSection setActiveSection={handleManualScroll} />
         <CoreContent />
+        <WhySection />
         <AccountabilitySection />
 
         {/* Section Breaker Symbol */}
