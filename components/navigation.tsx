@@ -9,7 +9,7 @@ export default function Navigation({ activeSection, setActiveSection }: Navigati
   const navItems = [
     { label: 'WHAT', href: '#what' },
     { label: 'WHO', href: '#who' },
-    { label: 'HOW', href: '#how' },
+    { label: 'BENEFITS', href: '#benefits' },
     { label: 'WHY', href: '#why' },
     { label: 'Apply', href: '#apply' },
   ]
