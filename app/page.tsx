@@ -4,7 +4,7 @@ import { useState, useEffect, useRef } from 'react'
 import Navigation from '@/components/navigation'
 import HeroSection from '@/components/hero-section'
 import CoreContent from '@/components/core-content'
-import WhySection from '@/components/why-section'
+import AccountabilitySection from '@/components/accountability'
 import FAQSection from '@/components/faq-section'
 import ApplySection from '@/components/apply-section'
 import Footer from '@/components/footer'
@@ -32,7 +32,7 @@ export default function Page() {
 
     const observer = new IntersectionObserver(observerCallback, observerOptions)
 
-    const sections = ['hero', 'what', 'mentorship', 'who', 'how', 'why', 'faq', 'apply']
+    const sections = ['hero', 'what', 'mentorship', 'who', 'how', 'accountability', 'faq', 'apply']
     sections.forEach((id) => {
       const element = document.getElementById(id)
       if (element) observer.observe(element)
@@ -57,7 +57,7 @@ export default function Page() {
       <div className="">
         <HeroSection setActiveSection={handleManualScroll} />
         <CoreContent />
-        <WhySection />
+        <AccountabilitySection />
 
         {/* Section Breaker Symbol */}
         <div className="flex justify-center py-16">
@@ -72,7 +72,7 @@ export default function Page() {
         </div>
 
         <FAQSection setActiveSection={handleManualScroll} />
-         {/* Section Breaker Symbol */}
+        {/* Section Breaker Symbol */}
         <div className="flex justify-center py-16">
           <svg width="30" height="20" viewBox="0 0 30 20" fill="none" xmlns="http://www.w3.org/2000/svg" className="text-gray-900">
             {/* Top row */}
