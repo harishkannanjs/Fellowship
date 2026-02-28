@@ -1,6 +1,7 @@
 'use client'
 
 import CursorAnimation from './cursor-animation'
+import { InteractiveGlobe } from './interactive-globe'
 
 interface HeroSectionProps {
   setActiveSection: (section: string) => void
@@ -16,13 +17,12 @@ export default function HeroSection({ setActiveSection }: HeroSectionProps) {
   }
 
   return (
-    <main className="relative bg-background">
-      {/* Map Background */}
-      <div className="max-w-4xl mx-auto px-6 pt-20">
-        <img
-          src="/Hero.png"
-          alt="Hero background"
-          className="w-full h-auto block"
+    <main id="hero" className="relative bg-background">
+      {/* Globe Background */}
+      <div className="max-w-4xl mx-auto px-40 pt-10">
+        <InteractiveGlobe
+          size={500}
+          className="w-full h-auto"
         />
       </div>
 
